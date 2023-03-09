@@ -25,6 +25,10 @@ function App() {
   );
 }
 
-function App
-
-export default App;
+function App()
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
+export default function App() {
+    return (
+        <PayPalScriptProvider options={{ "client-id": Af04kwtoi3aNKBUFMLm3BMxe7MP80bVW96KKVcEMclmSsZyuiWeQHKC8jG5WYZ6EvYCuPesEg12NgeK2 }}/>
+    );
+}
