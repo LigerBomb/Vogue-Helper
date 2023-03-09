@@ -14,7 +14,7 @@ mongoose.connect("mongodb://127.0.0.1:27017/Vogue-Database" , {
     .then(() => console.log("connected to DB"))
     .catch(console.error);
 
-const Todo = require('.models.Todo');
+const Todo = require('./models/Todo');
 
 app.get('/todos', async ( req, res) => {
     const todos = await Todo.find ();
