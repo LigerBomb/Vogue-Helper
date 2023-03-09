@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import mensClothingInventory from './components/clothing'
+import womensClothingInventory from './components/clothing'
+
 
 function App() {
   return (
