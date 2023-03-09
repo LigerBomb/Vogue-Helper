@@ -13,8 +13,8 @@ function womensClothingInventory() {
 return <div>{womensClothingInventory}</div>}
 
 function womensClothingInventory() {
-    const womensShirt = ['Blouse', 'Crop Top', 'Tank Top']
-    const womensClothingInventory = womensShirt.map(womensShirt => <h2>{womensShirt}</h2>)
+    const womensShoes = ['Heels', 'Flats', 'Sneakers']
+    const womensClothingInventory = womensShoes.map(womensShoes => <h2>{womensShoes}</h2>)
 return <div>{womensClothingInventory}</div>}
 
 export default womensClothingInventory
