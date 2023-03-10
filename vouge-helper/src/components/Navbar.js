@@ -8,6 +8,10 @@ function navbar() {
 
     const [openLinks, setOpenLinks] = useState(false)
 
+    const toggleNavbar = () => {
+        setOpenLinks(!openLinks)
+    }
+
   return (
     <div className='navbar'>
       <div className='leftSide' id={openLinks ? "open" : "close"}>
@@ -24,7 +28,7 @@ function navbar() {
         <Link to="/"> Login </Link>
         <Link to="/"> About </Link>
         <Link to="/"> Contact </Link>
-        <button>
+        <button onClick={toggleNavbar}>
             <ReorderIcon />
         </button>
 
